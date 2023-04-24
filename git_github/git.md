@@ -19,7 +19,11 @@
 - $ git pull origin main | Busque e integre-se a outro repositório ou em um ramo local
 
 ## Solução de problemas
-- O erro fatal: refusing to merge unrelated histories | $ git pull origin master --allow-unrelated-histories
+- O erro fatal: refusing to merge unrelated histories
+  - $ git pull origin master --allow-unrelated-histories
+- O erro fatal: Your local changes to the following files would be overwritten by merge:
+  - $ git reset --hard
+  - $ git pull origin main 
 
 ## Referências
 - [https://dio.me/courses/introducao-ao-git-e-ao-github](https://www.dio.me/courses/introducao-ao-git-e-ao-github)
